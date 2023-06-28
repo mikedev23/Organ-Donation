@@ -39,7 +39,7 @@ A form to sign up as an organ donor
 
 If you have any suggestions for improving this webpage, please feel free to submit them. You can also submit content, such as articles or videos, to be included on the webpage.
 
-## 🚀 About Me
+## 🙋🏾 About Me
 
 I'm an aspiring front-end developer taking courses on various coding websites and building projects along the way.
 
