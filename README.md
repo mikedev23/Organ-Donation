@@ -51,6 +51,8 @@ Javascript, HTML, CSS, Figma, React...etc
 
 - [@mikedev23](https://github.com/mikedev23)
 
+![Mikedev23 Logo](https://preview.redd.it/9tdtiwhz719b1.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b64c4053989547bf3afb51f60279c8b69b73bd69)
+
 ## License
 
 The Organ Donation Webpage is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
