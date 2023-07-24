@@ -4,15 +4,15 @@
 
 <p id="description">A resource for those interested in learning more about organ donation. It includes information about the benefits of organ donation, the process of becoming an organ donor, and frequently asked questions about organ donation.</p>
 
-<h2>🚀 Demo</h2>
+<h2>🎦 Demo</h2>
 
 [https://mikedev23.github.io/Organ-Donation/](https://mikedev23.github.io/Organ-Donation/)
 
-<h2>Source Code</h2>
+## 🌐 Source Code
 
 https://github.com/mikedev23/Organ-Donation
 
-## Installation
+## 🔌 Installation
 
 To install the Organ Donation Webpage, follow these steps:
 
@@ -22,11 +22,11 @@ To install the Organ Donation Webpage, follow these steps:
 
     3. Open the webpage (index.html) in a web browser.
 
-## How to Use This Webpage
+## 🗒️ How to Use This Webpage
 
 To use this webpage, simply click on the links or buttons to navigate to the different sections. You can also use the search bar to find specific information.
 
-## Features
+## 📑 Features
 
 A clear and concise overview of organ donation
 A list of the benefits of organ donation
@@ -35,33 +35,35 @@ A FAQ section with answers to common questions about organ donation
 A video about organ donation
 A form to sign up as an organ donor
 
-## How to Contribute to This Webpage
+## 📝 How to Contribute to This Webpage
 
 If you have any suggestions for improving this webpage, please feel free to submit them. You can also submit content, such as articles or videos, to be included on the webpage.
 
-## 🙋🏾 About Me
+## 🙋🏾‍♂️ About Me
 
 I'm an aspiring front-end developer taking courses on various coding websites and building projects along the way.
 
-## 🛠 Skills
+## 🛠️ Skills
 
-Javascript, HTML, CSS, Figma, React...etc
+Javascript, HTML, CSS, Figma, Sass, Tailwind React...etc
 
-## Authors
+## 🆔 Authors
 
 - [@mikedev23](https://github.com/mikedev23)
 
-![Mikedev23 Logo](https://preview.redd.it/9tdtiwhz719b1.jpg?width=960&crop=smart&auto=webp&v=enabled&s=b64c4053989547bf3afb51f60279c8b69b73bd69)
+## 👨🏾‍💻 Logo
 
-## License
+![Mikedev23 Logo](https://i.redd.it/cg8wj05fmzdb1.jpg)
+
+## 📋 License
 
 The Organ Donation Webpage is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
-## Thank you for visiting this webpage!
+## 👋🏾 Thank you for visiting this webpage!
 
 I hope that you find this webpage informative and helpful. If you have any questions, please do not hesitate to contact me.
 
-## Badges
+## 🪪 Badges
 
 [![Twitter](https://img.shields.io/badge/Twitter-mikedev23-blue?style=flat&logo=twitter)](https://twitter.com/michaelh1277)
 
@@ -71,6 +73,6 @@ I hope that you find this webpage informative and helpful. If you have any quest
 
 [![Email](https://img.shields.io/badge/Email-michaelh1277%40gmail.com-red?style=flat&logo=gmail)](mailto:michaelh1277@gmail.com)
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 The information on this webpage is not intended to be a substitute for medical advice. If you have any questions about organ donation, please consult with a healthcare professional.
