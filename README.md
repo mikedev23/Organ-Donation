@@ -55,10 +55,6 @@ Javascript, HTML, CSS, Figma, Sass, Tailwind React...etc
 
 ![Mikedev23 Logo](https://i.redd.it/cg8wj05fmzdb1.jpg)
 
-## 📋 License
-
-The Organ Donation Webpage is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
-
 ## 👋🏾 Thank you for visiting this webpage!
 
 I hope that you find this webpage informative and helpful. If you have any questions, please do not hesitate to contact me.
@@ -72,6 +68,10 @@ I hope that you find this webpage informative and helpful. If you have any quest
 [![GitHub](https://img.shields.io/badge/GitHub-mikedev23-black?style=flat&logo=github)](https://github.com/mikedev23)
 
 [![Email](https://img.shields.io/badge/Email-michaelh1277%40gmail.com-red?style=flat&logo=gmail)](mailto:michaelh1277@gmail.com)
+
+## 📋 License
+
+The Organ Donation Webpage is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
 ## ⚠️ Disclaimer
 
