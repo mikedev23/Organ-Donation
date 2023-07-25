@@ -338,13 +338,16 @@ input[type='submit']:hover {
   display: flex;
   align-items: center;
 }
+
 .benefits-image img {
   margin: 0 40px;
+  border: 2px solid teal; /* Set the border color to teal */
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.75);
-  border: 2px solid #000;
-  height: 200px;
   border-radius: 3%;
+  width: 200px; /* Set a fixed width for the images */
+  height: 200px; /* Set a fixed height for the images */
 }
+
 .signup-image img {
   margin: 1.5rem 0.8rem;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.75);
@@ -388,6 +391,14 @@ footer p {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 8px;
   }
+
+  .signup-image img {
+    margin: 1.5rem 0.8rem;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.75);
+    border: 2px solid #000;
+    width: 320px;
+    height: 230px;
+  }
 }
 @media only screen and (max-width: 860px) {
   .benefits-image {
@@ -396,7 +407,7 @@ footer p {
   .benefits-image img {
     margin: 20px 0;
     width: 100%;
-    height: auto;
+    height: 210px;
   }
 }
 @media only screen and (max-width: 968px) {
