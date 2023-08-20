@@ -8,6 +8,7 @@ body {
   color: #fff;
   font-family: Poppins, sans-serif;
   zoom: 0.8;
+  color: #fff;
 }
 
 .main-heading {
@@ -15,7 +16,7 @@ body {
   left: 50%;
   margin: 0;
   padding: 0;
-  color: teal;
+  color: violet;
   font-weight: 700;
   font-size: 50px;
   font-family: Nunito, sans-serif;
@@ -74,14 +75,14 @@ p {
 .nav-link {
   display: inline-block;
   margin: 10px;
-  color: teal;
+  color: violet;
   font-weight: 700;
   font-size: 1.3rem;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: teal;
+  color: whitesmoke;
   text-decoration: underline;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -131,6 +132,7 @@ p {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: #1a1c2c;
 }
 
 .benefits-list li p {
@@ -155,7 +157,7 @@ p {
 }
 
 .teal {
-  color: teal;
+  background-color: violet;
 }
 
 h2 {
@@ -187,14 +189,14 @@ ol.process-list li::before {
 
 h3 {
   margin-bottom: 10px;
-  color: teal;
+  color: violet;
   font-size: 20px;
 }
 
 h4 {
   margin-top: 3rem;
   margin-bottom: 0;
-  color: teal;
+  color: violet;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
@@ -260,7 +262,7 @@ ul {
 
 .social-media a:hover {
   transform: scale(1.2);
-  color: teal;
+  color: violet;
 }
 
 .fa-facebook-square:before {
@@ -352,7 +354,7 @@ input[type='submit'] {
   margin: 2rem auto 0;
   border: none;
   border-radius: 5px;
-  background-color: teal;
+  background-color: rgb(58, 58, 155);
   padding: 10px 20px;
   width: max-content;
   color: #fff;
@@ -363,7 +365,7 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   transform: perspective(600px) rotateX(5deg);
-  background-color: rgb(1, 158, 158);
+  background-color: rgb(66, 66, 174);
 }
 
 #signup-now {
@@ -395,7 +397,7 @@ input[type='submit']:hover {
 
 .benefits-image img {
   margin: 0 40px;
-  border: 2px solid teal;
+  border: 2px solid violet;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.75);
   border-radius: 3%;
   width: 200px;
@@ -510,7 +512,7 @@ footer p {
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: 700;
-  color: teal;
+  color: violet;
 }
 
 .signup-form {
@@ -542,7 +544,7 @@ input[type='tel'] {
 }
 
 .signup-button {
-  background-color: teal;
+  background-color: violet;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -553,7 +555,7 @@ input[type='tel'] {
 }
 
 .signup-button:hover {
-  background-color: #008080;
+  background-color: violet;
 }
 
 .signup-images {
