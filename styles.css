@@ -29,7 +29,6 @@ body {
 
 #header {
   background-color: #000;
-  /* margin-bottom: 1rem; */
   padding-top: 0;
 }
 
@@ -42,7 +41,6 @@ body {
 
 #header-img {
   flex: 1;
-  /* margin-top: 8px; */
   width: 100%;
   max-width: 100%;
   height: auto;
