@@ -8,10 +8,10 @@ body {
   color: #fff;
   font-family: Poppins, sans-serif;
   zoom: 0.8;
-  background-image: url('https://images.unsplash.com/photo-1514416309827-bfb0cf433a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80'); /* Replace with your image path */
+  background-image: url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .main-heading {
@@ -20,19 +20,17 @@ body {
   margin: 0;
   padding: 0;
   color: violet;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: bolder;
+  font-size: 55px;
   font-family: Nunito, sans-serif;
   text-align: center;
-}
-
-.main-heading h1 {
-  margin-top: 15px;
-  box-shadow: 0 0 10px #cecbcb;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #header {
   background-color: #000;
+  /* margin-bottom: 1rem; */
+  padding-top: 0;
 }
 
 .header-content {
@@ -44,7 +42,7 @@ body {
 
 #header-img {
   flex: 1;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -135,8 +133,8 @@ p {
 }
 
 .benefits-list li h3 {
-  margin: 0;
-  padding: 0;
+  margin: 3px;
+  padding: 3px 4px;
   text-align: center;
   background-color: #1a1c2c;
 }
@@ -173,8 +171,8 @@ h2 {
   align-items: center;
   margin-bottom: 30px;
   color: #fff;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 28px;
   text-decoration: underline;
   color: rgb(224, 218, 158);
 }
@@ -189,8 +187,9 @@ ol.process-list li::before {
 }
 
 #faq {
-  background: 100%;
+  background-color: #1a1c2c;
   padding: 30px;
+  text-align: center;
 }
 
 h3 {
@@ -205,6 +204,7 @@ h4 {
   color: violet;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  font-size: 18px;
 }
 
 #faq,
@@ -214,14 +214,9 @@ li {
   align-items: center;
 }
 
-#faq,
-li,
-ul {
-  margin: 1rem;
-}
-
 #faq a {
   color: rgb(174, 158, 224);
+  text-align: center;
 }
 
 #faq a:hover {
@@ -231,7 +226,6 @@ ul {
 
 #signup {
   margin: 0;
-  padding: 9px;
   width: auto;
   height: auto;
 }
@@ -240,8 +234,9 @@ ul {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-color: #000;
   padding: 0;
+  width: auto;
+  background-color: #000;
   color: #fff;
   text-align: center;
 }
@@ -250,6 +245,8 @@ ul {
   margin-bottom: 9px;
   padding: 5px 0;
   font-size: 15px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .social-media {
@@ -320,10 +317,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
-  box-shadow: 0 0 10px grey;
-  border-radius: 10px;
-  background-color: #252525;
-  padding-top: 30px;
+  background-color: #1a1c2c;
 }
 
 .form-group {
@@ -377,10 +371,7 @@ input[type='submit']:hover {
 #signup-now {
   display: inline-block;
   transition: transform 0.3s ease-in-out;
-  margin-top: 1rem;
-  border-radius: 5px;
   background-color: #ef233c;
-  padding: 10px 20px;
   color: #fff;
   font-weight: 700;
   text-decoration: none;
@@ -439,25 +430,26 @@ video {
   height: 400px;
 }
 
-footer {
-  font-size: 0.8rem;
-}
-
-footer p {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-}
-
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
 
-  #faq,
+  .main-heading {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+
+  h2,
   h3,
-  p {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+  h4,
+  li,
+  p,
+  label,
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'] {
+    font-size: 16px;
     margin-bottom: 8px;
   }
 
@@ -467,6 +459,30 @@ footer p {
     border: 2px solid #000;
     width: 320px;
     height: 230px;
+  }
+
+  .cta-button,
+  .benefits-list li h3 {
+    font-size: 14px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .signup-form {
+    margin-bottom: 0;
+  }
+
+  input[type='submit'],
+  .signup-button {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+
+  #faq a {
+    margin-right: 0;
+    margin-top: 0.5rem;
   }
 }
 
@@ -479,6 +495,10 @@ footer p {
     margin: 20px 0;
     width: 100%;
     height: 210px;
+  }
+
+  .header-content {
+    padding-bottom: 10px;
   }
 }
 
@@ -503,12 +523,10 @@ footer p {
 
 .signup-section {
   background-color: #1a1c2c;
-  padding: 50px 0;
   color: #fff;
 }
 
 .signup-container {
-  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
@@ -553,7 +571,7 @@ input[type='tel'] {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 12px 22px;
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s;
